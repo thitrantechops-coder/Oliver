@@ -1,0 +1,40 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Oliver — Hồ sơ Năng lực",
+      "hasCanvas": false,
+      "bodyTextLen": 17335,
+      "bodyTextHash": "e7bf89a611ffa0c62a742f2bfd7b1e9ea806686017bb892c6e5dc7ddf1a7535b",
+      "bodyTextPrefix": "Mục lục Ấn tượng Doanh nghiệp Dịch vụ & Công nghệ Dự án Liên hệ ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Oliver — Hồ sơ Năng lực",
+      "hasCanvas": false,
+      "bodyTextLen": 17262,
+      "bodyTextHash": "340e016b159a478be11ff7f9e6a141276ac783cde3e1d022e4bcd5d22a53f162",
+      "bodyTextPrefix": "HỒ SƠ NĂNG LỰC 2026 Đổi mới · Sáng tạo · Uy tín · Minh bạch Hồ s",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "mobile: body text replaced (similar length, page start changed)"
+  ]
+}

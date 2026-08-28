@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Be Vietnam Pro", "Segoe UI", system-ui, sans-serif;
+  --font-sans: "Be Vietnam Pro", "Segoe UI", system-ui, sans-serif;
+
+  --color-paper: #f6f3ed;
+  --color-paper-2: #efeae2;
+  --color-ink: #161513;
+  --color-ink-soft: #3a3834;
+  --color-muted: #6b675f;
+  --color-line: #d9d3c8;
+  --color-bronze: #9a7b4f;
+  --color-bronze-fg: #f6f3ed;
+  --color-night: #0e1014;
+  --color-night-fg: #f4f1eb;
+  --color-night-muted: #c5c9d1;
+  --color-oliver: #1b5cb8;
+  --color-oliver-soft: #8ec0f2;
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+
+  --shadow-soft: 0 18px 50px -24px rgb(22 21 19 / 0.28);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-wrap: balance;
+    font-family: var(--font-display);
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+@media print {
+  nav,
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: white;
+  }
+
+  section {
+    break-inside: avoid;
+  }
+
+  table {
+    break-inside: auto;
+  }
+
+  tr {
+    break-inside: avoid;
+  }
+}
